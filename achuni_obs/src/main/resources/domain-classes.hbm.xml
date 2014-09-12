@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping
+PUBLIC "-//Hibernate/Hibernate Mapping DTD//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd">
+<hibernate-mapping>
+    <class name="com.cayulla.achuni.hibernate.data.Cliente" table="cliente">
+        <id name="clienteId" column="ID_Cliente" type="long">
+            <generator class="native" />
+        </id>
+        <property name="nombres" column="Apellidos" type="string"/>
+        <property name="apellidos" column="Nombres" type="string"/>
+        <property name="tipo" column="Tipo_Documento" type="int"/>
+        <property name="numeroDocumento" column="Num_Documento" type="string"/>
+        <property name="estado" column="Estado" type="boolean"/>
+    </class>
+</hibernate-mapping>

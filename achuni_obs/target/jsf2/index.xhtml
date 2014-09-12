@@ -1,0 +1,88 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+
+</h:head>
+
+<h:body>
+	<div id="header" class="ui-widget ui-widget-header">
+		<div id="logo">
+			<img src="#{request.contextPath}/images/logo_mini.png" alt="Logo" />
+		</div>
+
+	</div>
+	<h:form>
+
+		<p:megaMenu>
+			<p:submenu label="TV" icon="ui-icon-check">
+				<p:column>
+					<p:submenu label="TV.1">
+						<p:menuitem value="TV.1.1" url="#" />
+						<p:menuitem value="TV.1.2" url="#" />
+					</p:submenu>
+					<p:submenu label="TV.2">
+						<p:menuitem value="TV.2.1" url="#" />
+						<p:menuitem value="TV.2.2" url="#" />
+						<p:menuitem value="TV.2.3" url="#" />
+					</p:submenu>
+					<p:submenu label="TV.3">
+						<p:menuitem value="TV.3.1" url="#" />
+						<p:menuitem value="TV.3.2" url="#" />
+					</p:submenu>
+				</p:column>
+
+				<p:column>
+					<strong>Sopranos</strong>
+					<p:graphicImage value="/images/sopranos/sopranos1.jpg" width="200" />
+				</p:column>
+			</p:submenu>
+
+			<p:submenu label="Entertainment" icon="ui-icon-pencil">
+				<p:column>
+					<p:submenu label="Entertainment.1">
+						<p:menuitem value="Entertainment.1.1" url="#" />
+						<p:menuitem value="Entertainment.1.2" url="#" />
+					</p:submenu>
+					<p:submenu label="Entertainment.2">
+						<p:menuitem value="Entertainment.2.1" url="#" />
+						<p:menuitem value="Entertainment.2.2" url="#" />
+						<p:menuitem value="Entertainment.2.3" url="#" />
+					</p:submenu>
+				</p:column>
+
+				<p:column>
+					<p:submenu label="Entertainment.4" icon="ui-icon-help">
+						<p:menuitem value="Entertainment.4.1" url="#" />
+						<p:menuitem value="Entertainment.4.2" url="#" />
+					</p:submenu>
+				</p:column>
+			</p:submenu>
+
+
+			<p:submenu label="Tech" icon="ui-icon-contact">
+				<p:column>
+					<p:submenu label="Tech.1">
+						<p:menuitem value="Tech.1.1" url="#" />
+						<p:menuitem value="Tech.1.2" url="#" />
+					</p:submenu>
+					<p:submenu label="Tech.2">
+						<p:menuitem value="Tech.2.1" url="#" />
+						<p:menuitem value="Tech.2.2" url="#" />
+						<p:menuitem value="Tech.2.3" url="#" />
+					</p:submenu>
+				</p:column>
+
+			</p:submenu>
+
+		</p:megaMenu>
+
+		<br />
+		<br />
+
+
+	</h:form>
+</h:body>
+
+</html>
